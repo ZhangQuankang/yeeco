@@ -1,0 +1,196 @@
+.top_back{
+	height:140px;
+	background:#00ACFF;
+	box-shadow:0 1px 2px #ccc;}
+.top{
+	position:relative;
+    margin:0 auto;
+	width:1000px;
+	height:140px;
+	background:#00acff;} 
+#code_1,#code_2{
+	display:none;
+	z-index:2;
+	position:absolute;
+	top:85px;
+	left:50%;
+	width:200px;
+	height:220px;
+	background:url(../../image/web_image/二维码边框.png) no-repeat center;}
+	#code_1{margin-left:111px;}
+	#code_2{margin-left:303px;}
+	#code_1 img,#code_2 img{
+		margin:38px;}
+.top_logo{
+	float:left;
+	margin:35px 0;}
+
+.top li{
+    float:right;
+	margin:50px 20px;
+	text-align:center;
+	line-height:40px;
+	width:150px;
+	height:40px;
+	border-radius:5px;
+	font-size:16px;
+	color:#fff;
+	border:1px solid #fff;}
+.top li:hover{
+	cursor:pointer;
+	transition:background 0.3s;
+    -moz-transition:background 0.3s; /* Firefox 4 */
+    -webkit-transition:background 0.3s; /* Safari and Chrome */
+    -o-transition:background 0.3s; /* Opera */
+	color:#00acff;
+	background:#fff;}
+.first_page{
+	position:relative;
+	margin:20px;
+	height:490px;}
+    .a img{
+	    position:absolute;
+		filter:alpha(Opacity=10); 
+	    opacity: 0.1;}
+	.b img{
+	    position:absolute;
+		top:120px;
+		right:50%;
+		margin-right:0px;}
+	.c img{
+	    position:absolute;
+		top:370px;
+		left:50%;
+		margin-left:440px;
+		filter:alpha(Opacity=30); 
+	    opacity: 0.3;}
+	.d img{
+	    position:absolute;
+		top:170px;
+		left:50%;
+		margin-left:10px;
+		filter:alpha(Opacity=20); 
+	    opacity: 0.2;}
+	.e img{
+	    position:absolute;
+		top:90px;
+		left:50%;
+		margin-left:520px;
+		filter:alpha(Opacity=40); 
+	    opacity: 0.4;}
+	.login_box{
+		position:absolute;
+		top:40px;
+		left:50%;
+		margin-left:80px;
+		height:402px;
+		width:400px;
+		background:url(../../image/web_image/%E7%99%BB%E5%BD%95%E6%A1%86.png)}
+
+.logon_header{
+		width:100px;
+		height:100px;
+		text-align:center;
+		margin:0 auto;
+	    color:#00acff;
+		line-height:100px;
+	    font-weight:normal;
+	    font-size:26px;
+		}
+    .lnusername{
+		margin:0px auto;
+		width:300px;
+		height:41px;
+		border:1px solid #ccc;
+		border-radius:5px;}
+	.lnpassword{
+		margin:30px auto;
+		width:300px;
+		height:41px;
+		border:1px solid #ccc;
+		border-radius:5px;}
+		.icon{
+			z-index:99;
+			float:left;
+			width:41px;
+		    height:41px;}
+			.icon_1{
+				background:url(../../image/web_image/group_icon_by_ronDu.png) no-repeat;
+				background-position:8px -43px;}
+			.icon_2{
+				background:url(../../image/web_image/group_icon_by_ronDu.png) no-repeat;
+				background-position:-48px -43px;}
+
+		.text-input{
+			z-index:1;
+			margin-left:10px;
+	        float:left;
+			width:240px;
+		    border:0;
+		    font-size: 14px;
+			font-family:"微软雅黑";
+		    height:41px;
+		  	line-height:41px;}
+	.checkbox{
+		margin-left:60px;
+		font-size: 14px;}
+	.forget{
+		margin-left:150px;}
+	.logon{
+		cursor:pointer;
+		color:#00acff;
+	    border:1px solid #00acff;
+		background:#fff;
+		width:300px;
+		height:40px;
+		margin:40px 50px;
+		font-family:"微软雅黑";
+		font-size:16px;
+		line-height:40px;}
+	.logon:hover{
+		color:#fff;
+	    background-color:#00acff;}
+
+
+
+
+.foot_back{
+	z-index:1px;
+	height:100px;
+	background:#00acff;
+	overflow:hidden;
+	}
+.foot{
+    margin:0 auto;
+	width:1300px;
+	background:#00acff;} 
+.foot_logo{
+	float:left;
+	margin:20px 50px;
+	width:180px;
+	height:60px;}
+.foot_middle{
+	float:left;
+	margin:22px 30px;
+	padding:0 100px 0 20px;
+	border-right:1px solid #fff;}
+
+.foot_middle p{
+	color:#fff;
+	line-height:28px;
+	text-align:center;}
+.foot_right{
+	width:300px;
+	overflow:hidden;
+	float:left;
+	margin:22px 20px;}
+.foot_right li{
+	float:left;
+    padding-left:30px;
+	line-height:28px;}
+.foot a{
+	color:#fff;
+	font-size:14px;}
+.foot a:hover{
+	color:#333;}
+	

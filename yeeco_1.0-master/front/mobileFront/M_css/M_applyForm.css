@@ -1,0 +1,199 @@
+/* CSS Document */
+body{
+	color:#333;
+	padding:0;	
+	font-family:"微软雅黑";
+	margin:0;
+	font-size:15px;
+	background:#f0f0f0;}
+h1, h2, h3, h4, h5, h6 ,strong{font-weight: normal;font-size: 100%;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#00ACFF;}
+em{font-style:normal;}
+*{outline:none;padding:0;margin:0;list-style:none;}
+
+/************************************************************************/
+.top{
+	z-index:10;
+	position:fixed;
+	top:0;
+	height:40px;
+	width:100%;
+	text-align:center;
+	line-height:40px;
+	background:#00acff;
+	color:#fff;
+	font-size:18px;}
+.top a{
+	margin-left:10px;
+	float:left;
+	color:#fff;
+	font-size:15px;}
+.top p{
+	margin-right:45px;}
+	
+.block{
+	background:#fff;
+	width:100%;
+	overflow:hidden;
+	margin:15px 0;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;}
+	.block li{
+		margin:0 auto;
+		height:43px;
+		line-height:43px;
+		width:90%;
+		border-bottom:1px solid #eee;}
+	.page_1{
+		height:174px;}
+	.page_2{
+		height:87px;}
+	.page_3{
+		height:131px;}
+	.page_4 p{
+		margin:10px auto;
+		width:90%;
+		display:block;
+		line-height:23px;}
+	.block li span{
+		display:inline-block;
+		width:30%;
+		font-size:16px;}
+	.block input{
+		width:66%;
+		height:35px;
+		line-height:35px;
+		border:0;
+		background:none;
+		font-size:16px;}
+	.block select{
+		-webkit-appearance:none;
+		border:0;
+		font-size:16px;
+		margin-left:-4px;}
+	.sexSelect{
+		width:66%;}
+	.block textarea{
+		-webkit-appearance:none;
+		border:0;
+		font-size:16px;
+		display:block;
+		width:90%;
+		height:70px;
+		margin:0 auto;
+		margin-bottom:10px;
+		line-height:23px;}
+.subBtn{
+	-webkit-appearance: none;
+	display:block;
+	background:#97ddff;
+	height:40px;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	line-height:40px;
+	margin-bottom:20px;
+	color:#fff;
+	border-radius:5px;
+	border:0;
+	font-size:15px;}
+	.subBtn:hover{
+		background:#00acff;}
+		
+	#index_2 ul li{
+		margin:15px auto;
+		display:block;
+		width:90%;}
+	#index_2 input[type=password]{
+		line-height:40px;
+		height:40px;
+		display:block;
+		width:90%;
+		border-radius:5px;
+		margin:15px auto;
+		border:1px solid #ccc;
+		font-size:15px;}
+	#index_2 .forget{
+		width:100%;
+		position:fixed;
+		bottom:15px;}
+	#index_2 .forget a{
+		text-align:center;
+		width:100px;
+		margin:0 auto;
+		color:#00acff;
+		display:block;}
+		
+	#index_3 ul li{
+		margin:15px auto;
+		display:block;
+		width:90%;}
+	#index_3 ul li span{
+		display:inline-block;}
+	#index_3 input[type=password]{
+		line-height:40px;
+		height:40px;
+		display:block;
+		width:90%;
+		border-radius:5px;
+		margin:15px auto;
+		border:1px solid #ccc;
+		font-size:15px;}
+	#index_3 .line{
+		width:90%;
+		height:42px;
+		margin:0 auto;}
+	#index_3 input[type=text]{
+		line-height:40px;
+		height:40px;
+		display:inline-block;
+		width:55%;
+		border-radius:5px;
+		border:1px solid #ccc;
+		font-size:15px;}
+	#index_3 .reSend{
+		float:right;
+		display:inline-block;
+		line-height:42px;
+		height:42px;
+		width:40%;
+		background:#97ddff;
+		color:#fff;
+		text-align:center;}
+.isSubmitting{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;}
+	.back{
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-50px;
+		margin-left:-60px;
+		width:120px;
+		height:100px;
+		background:#000;
+		border-radius:5px;
+		filter:alpha(opacity=40); /*支持 IE 浏览器*/
+		-moz-opacity:0.40; /*支持 FireFox 浏览器*/
+		opacity:0.40; /*支持 Chrome, Opera, Safari 等浏览器*/}
+	.back_in{
+		position:absolute;	
+		top:50%;
+		left:50%;
+		margin-top:-50px;
+		margin-left:-60px;
+		width:120px;
+		height:100px;
+		text-align:center;}
+	.isSubmitting img{
+		margin:10px auto;}
+	.isSubmitting p{
+		color:#fff;}
+		
+		

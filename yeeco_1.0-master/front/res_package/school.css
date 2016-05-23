@@ -1,0 +1,123 @@
+/* CSS Document */
+
+.school{
+	z-index:11;
+	position:fixed;
+	top:50%;
+	margin-top:-160px;
+	left:50%;
+	margin-left:-340px;
+	padding:10px;
+	background:#fff;
+	box-shadow:0 0 3px #ccc;
+	width:680px;
+	height:320px;
+	padding:20px;
+	background:#f2f2f2;}
+	
+.shead strong{
+	margin:0 10px;
+	float:left;
+	font-size:18px;
+	line-height:38px;
+	height:38px;}	
+.shead a{
+	float:right;
+	font-size:38px;
+	line-height:38px;
+	height:38px;
+	margin-right:10px;}	
+
+	
+.ui-select{
+	z-index:12;
+	position:relative;
+	float:left;
+	margin-left:15px;}
+.ui-select-dock{
+	background:#fff;
+	height:38px;
+	width:100px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */}
+	.ui-select-dock:hover{
+		border:1px solid #00acff;
+		cursor:pointer;}
+	.ui-select-selected{
+		float:left;
+		height:38px;
+		width:60px;
+		line-height:38px;
+		text-align:center;}
+	.ui-icon-triangleb{
+		float:left;
+		height:38px;
+		width:40px;
+		background:url(../../image/web_image/%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95%E7%AE%AD%E5%A4%B4.png) no-repeat;
+		background-position:14px -21px;}
+
+.ui-select-options{
+	background:#FFF;
+	position:absolute;
+    top:41px;
+	border:1px solid #ccc;
+	width:100px; 
+	height:264px;
+	overflow:hidden;}
+	.ui-menu-item{
+		height:33px;
+		line-height:33px;
+		width:84px;
+		padding-left:16px;
+		cursor:pointer;}
+	.ui-menu-item:hover{
+		background:#f2f2f2;}
+.ui-scrollbar-bar{
+	position:absolute;
+	left:83px;
+	margin:3px;
+	width:8px;
+	height:60px;
+	background:#f2f2f2;
+	border-radius:5px;
+	-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */}
+	.ui-scrollbar-bar:hover{
+		background:#ccc;}
+		
+.temp_b{
+	background:#ccc;}
+.temp_c{
+	cursor:default;}
+	
+	
+	
+.school_list{
+	position:relative;
+	margin:15px 0;
+	background:#fff;
+	width:100%-15px;
+	height:270px;
+	border:1px solid #ccc;
+	padding-left:15px;
+	overflow:hidden;}
+	.school_list ul li{
+		float:left;
+		height:34px;
+		line-height:34px;
+		width:32%;}
+		
+.ui-scrollbar-bar_2{
+	position:absolute;
+	right:3px;
+	margin:3px;
+	width:8px;
+	height:27px;
+	background:#f2f2f2;
+	border-radius:5px;
+	-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */}
+	.ui-scrollbar-bar_2:hover{
+		background:#ccc;

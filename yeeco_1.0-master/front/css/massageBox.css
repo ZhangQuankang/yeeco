@@ -1,0 +1,322 @@
+body{
+	min-height:inherit;
+	background:url(../../image/web_image/%E6%B4%BB%E5%8A%A8%E6%8E%A8%E8%8D%90%E8%83%8C%E6%99%AF.png)}
+
+.top_back{
+	height:100px;
+	background:#00ACFF;
+	overflow:hidden;
+	box-shadow:0 1px 2px #ccc;}
+.top{
+    margin:0 auto;
+	width:1000px;
+	height:100px;
+	background:#00ACFF;} 
+.a{
+	float:left;
+	margin:30px 50px;
+	font-size:26px;
+	line-height:40px;
+	color:#fff;}
+.b{
+	float:right;
+	margin:30px 50px;
+	line-height:40px;
+	color:#FFF;}
+	.b a{
+		color:#fff;}
+	.b a:hover{
+		color:#333;}
+		
+.body{
+	margin:2% auto;
+	height:77%;
+	width:1130px;
+	background:#fff;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	-moz-box-shadow: 0 0 3px #ccc;
+	box-shadow:0 0 3px #ccc;}
+	
+.nav{
+	float:left;
+	background:#2F3336;
+	width:80px;
+	height:100%;}
+#msgBtn{
+	display:block;
+	height:70px;
+	width:80px;
+	background:url(../../image/web_image/%E6%B6%88%E6%81%AF%E6%8C%89%E9%92%AE1.png) center no-repeat;}
+#linkBtn{
+	display:block;
+	height:70px;
+	width:80px;
+	background:url(../../image/web_image/%E8%81%94%E7%B3%BB%E4%BA%BA%E6%8C%89%E9%92%AE2.png) center no-repeat;}
+/***********************消息列表*****************************/
+.msg_list{
+	float:left;
+	width:320px;
+	height:100%;
+	overflow:hidden;
+	position:relative;}
+	.msg_list ul{
+		position:absolute;}
+	.msg_list li{
+		color:#000;
+		position:relative;
+		height:70px;
+		width:320px;
+		border-bottom:1px solid #f0f0f0;
+		overflow:auto;}
+	.msg_list li:hover{
+		background:#fafafa;}
+	.userFace{
+		position:absolute;
+		top:5px;
+		left:10px;
+		height:60px;
+		width:60px;
+		background:#f0f0f0;
+		border-radius:5px;
+		text-align:center;
+		vertical-align:middle;}
+	.userFace img{
+		margin:3%;
+		width:94%;
+		height:94%;}
+	.userFace span{
+		display:block;
+		background:#F00;
+		height:12px;
+		width:12px;
+		border-radius:6px;
+		position:absolute;
+		top:-2px;
+		left:52px;
+		z-index:3;}
+	.msg_list strong{
+		position:absolute;
+		left:80px;
+		top:5px;
+		line-height:26px;
+		font-size:17px;
+		width:180px;
+		display:block;
+		white-space:nowrap; 
+		overflow:hidden; 
+		text-overflow:ellipsis;
+		}
+	.msg_list p{
+		position:absolute;
+		left:80px;
+		top:42px;
+		line-height:20px;
+		width:210px;
+		display:block;
+		white-space:nowrap; 
+		overflow:hidden; 
+		text-overflow:ellipsis;}
+		
+.ui-scrollbar-bar{
+	position:absolute;
+	right:2px;
+	margin:3px;
+	width:8px;
+	height:60px;
+	background:#f2f2f2;
+	border-radius:5px;
+	-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */}
+	.ui-scrollbar-bar:hover{
+		background:#ccc;}
+
+.temp_b{
+	background:#ccc;}
+.temp_c{
+	moz-user-select: -moz-none; 
+	-moz-user-select: none; 
+	-o-user-select:none; 
+	-khtml-user-select:none; /* you could also put this in a class */ 
+	-webkit-user-select:none;/* and add the CSS class here instead */ 
+	-ms-user-select:none; 
+	user-select:none;/**禁止选中文字*/ 
+	cursor:default;}
+.delete_msg{
+	position:absolute;
+	color:#ccc;
+	top:10px;
+	right:25px;}
+.delete_msg:hover{
+	color:#00acff;}	
+/***********************对话窗口*****************************/	
+.chat_window{
+	float:left;
+	background:#f0f0f0;
+	width:730px;
+	height:100%;}
+	
+.massages{
+	position:relative;
+	background:#fafafa;
+	margin:15px;
+	height:70%;
+	padding:0 10px;
+	width:680px;
+	border-radius:8px;
+	overflow:hidden;}
+.massages ul{
+	width:100%;
+	position:absolute;
+	min-height:100%;
+	bottom:0;}
+.massages li{
+	width:680px;
+	margin:15px 0;}
+	.msg_face{
+		height:50px;
+		width:50px;
+		border:1px solid #ccc;
+		overflow:hidden;
+		border-radius:5px;}
+		.msg_face img{
+			height:100%;
+			width:100%;}
+		.msg_content p{
+			line-height:23px;}
+	.Rx_msg .msg_face{
+		float:left;}
+	.Tx_msg .msg_face{
+		float:right;}
+.Rx_msg .conbine{
+	margin:0 10px;
+	float:left;}
+.Tx_msg .conbine{
+	margin:0 10px;
+	float:right;}
+	.Tx_msg .conbine em{
+		float:right;
+		color:#999;}
+	.Rx_msg .conbine em{
+		float:left;
+		color:#999;}
+	.Rx_msg .msg_content{
+		margin-top:20px;
+		background:#fff;
+		border:1px solid #ccc;
+		padding:10px;
+		max-width:300px;
+		border-radius:5px;}
+	.Tx_msg .msg_content{
+		margin-top:20px;
+		background:#97ddff;
+		border:1px solid #00acff;
+		padding:10px;
+		max-width:300px;
+		border-radius:5px;}
+	.Tx_msg .send_time{
+		margin-top:20px;
+		color:#ccc;
+		display:block;
+		vertical-align:top;
+		float:right;}
+	.Rx_msg .send_time{
+		margin-top:20px;
+		color:#ccc;
+		display:block;
+		vertical-align:top;
+		float:left;}
+.mass_tag{
+	width:500px;
+	padding:15px;
+	background:#f2f2f2;
+	color:#999;
+	text-align:center;
+	margin:15px auto;}		
+.mass_tag a{
+	margin:0 5px;
+	color:#97ddff;}
+	.mass_tag a:hover{
+		color:#00acff;}	
+		
+.sendBox{
+	position:relative;
+	margin:15px;
+	height:23%;
+	width:700px;}
+	.sendBox textarea{
+		position:absolute;
+		top:0;
+		left:0;
+		height:51%;
+		width:678px;
+		border:1px solid #ccc;
+		border-radius:8px;
+		resize: none;
+		line-height:26px;
+		padding:10px;}
+	.sendBox input[type=submit]{
+		position:absolute;
+		height:38px;
+		width:100px;
+		border:0;
+		background:#97ddff;
+		bottom:0;
+		color:#fff;
+		font-size:16px;
+		right:0;
+		border-radius:5px;}
+		.sendBox input[type=submit]:hover{
+			background:#00acff;
+			cursor:pointer;}
+			
+#oldMsg{
+	height:1px;
+	border-bottom:1px solid #f0f0f0;
+	width:600px;
+	margin:20px auto;}	
+.mobile_msg{
+	z-index:11;
+	background:#fff;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-100px;
+	margin-left:-200px;
+	width:360px;
+	height:160px;
+	padding:20px;
+	border:1px solid #ccc;}
+	.mobile_msg a{
+		position:absolute;
+		top:5px;
+		right:15px;
+		font-size:26px;}
+	.mobile_msg textarea{
+		margin-top:15px;
+		width:360px;
+		height:90px;
+		border:1px solid #ccc;
+		border-radius:5px;
+		resize: none;
+		line-height:23px;
+		padding:10px;}
+		
+	.mobile_msg input[type=submit]{
+		display:block;
+		margin:10px auto;
+		height:30px;
+		width:80px;
+		border:0;
+		background:#97ddff;
+		color:#fff;
+		font-size:16px;
+		right:0;
+		border-radius:5px;}
+		.mobile_msg input[type=submit]:hover{
+			background:#00acff;
+			cursor:pointer;}
+
+	
+
+	
+	

@@ -1,0 +1,198 @@
+body{
+	background:url(../../image/web_image/%E6%B4%BB%E5%8A%A8%E6%8E%A8%E8%8D%90%E8%83%8C%E6%99%AF.png)}
+
+.top_back{
+	height:100px;
+	background:#00ACFF;
+	overflow:hidden;
+	box-shadow:0 1px 2px #ccc;}
+.top{
+    margin:0 auto;
+	width:1100px;
+	height:100px;
+	background:#00ACFF;} 
+.a{
+	float:left;
+	margin:30px 50px;
+	font-size:26px;
+	line-height:40px;
+	color:#fff;}
+.b{
+	float:right;
+	margin:30px 50px;
+	line-height:40px;
+	color:#FFF;}
+	.b a{
+		color:#fff;}
+	.b a:hover{
+		color:#333;}
+		
+.body{
+	margin:0 auto;
+	width:1130px;}
+.left{
+	float:left;
+	width:280px;
+	margin:15px;}
+	.but{
+		width:280px;
+		margin:0 auto;
+		padding:10px 0;
+		color:#999;
+		text-align:center;
+		line-height:30px;
+		box-shadow:0 0 3px #ccc;
+		background:#fff;}
+	.picture{
+		height:150px;
+		width:280px;
+		background:#ccc;}
+	.but a{
+		color:#999;
+		font-size:16px;
+		text-decoration:underline;}
+	.but a:hover{
+		color:#00ACFF;}
+.main{
+	position:relative;
+	float:left;
+	width:805px;
+	margin:15px 0;
+	background:#fff;
+	box-shadow:0 0 3px #ccc;}
+.page_title{
+	margin:0 auto;
+	padding:0 10px;
+	width:750px;
+	height:35px;
+	border-bottom:1px solid #f2f2f2;
+	line-height:35px;
+	font-size:16px;}
+		
+.contact{
+	width:540px;
+	margin:10px auto;}
+	.contact_form label{
+		height:36px;
+		line-height:36px;
+		width:100px;
+		display:inline-block;
+		float:left;}
+    .contact_form label span{
+		color:#F00;}
+	.contact_form ul li{
+		margin:10px;}
+	.contact_form ul li ul{
+		float:left;
+		width:420px;} 
+	.contact_form ul li ul li{
+		float:left;
+		margin:5px 10px 5px 0;
+		color:#999;}
+		.contact_form ul li ul li:hover{
+			color:#00ACFF;}
+	.contact_form ul li ul li label{
+		width:auto;
+		float:none;
+		height:28px;
+		line-height:26px;
+		cursor:pointer;}
+	.contact_form input[type=text]{
+		border:1px solid #ccc;
+		vertical-align: middle;
+		width:250px;
+		height:36px;
+		line-height:36px;
+		border-radius:5px;
+		padding:0 10px;}
+	.contact_form select{
+		color:#999;
+		vertical-align: middle;
+		height:38px;
+		width:274px;
+		padding:0 10px;}
+		.contact_form select option{
+			color:#000;}
+	.contact_form input[type=checkbox]{
+		vertical-align: middle;
+		cursor:pointer;}
+	.contact_form input[type=file]{
+		margin-bottom:10px;
+		vertical-align: middle;
+		cursor:pointer;
+		color:#999;}
+	.contact_form textarea{
+		padding:0 10px;
+		border:1px solid #ccc;
+		border-radius:5px;
+		line-height:36px;
+		height:90px;
+		width:380px;}
+	.pic{
+		margin-right:10px;
+		float:left;
+		width:80px;
+		height:80px;}
+		.pic img{
+			width:100%;
+			height:100%;}
+    .contact_form ul li p{
+		color:#999;
+		margin:5px 0;}
+	.contact_form ul li a{
+		color:#999;
+		margin:5px 0;
+		text-decoration:underline;}
+		.contact_form ul li a:hover{
+			color:#00ACFF;}
+
+#notice{
+	width:150px;
+	height:150px;
+	background:url(../../image/web_image/%E8%A1%A8%E5%8D%95%E6%8F%90%E7%A4%BA.png) no-repeat center;
+	position:absolute;
+	top:16px;
+	left:570px;}
+
+
+.email{
+	z-index:11;
+	position:fixed;
+	top:50%;
+	margin-top:-100px;
+	left:50%;
+	margin-left:-220px;
+	padding:10px;
+	background:#fff;
+	box-shadow:0 0 3px #ccc;
+	width:480px;}
+	.email p{
+		display:block;
+		margin:10px 20px;}
+		.email p a{
+			font-size:26px;
+			float:right;
+			line-height:20px;}
+	.submit{
+		display:block;
+		cursor:pointer;
+		color:#00ACFF;
+	    border:1px solid #00ACFF;
+		background:#fff;
+		width:90px;
+		height:40px;
+		font-family:"微软雅黑";
+		font-size:16px;
+		line-height:40px;
+		border-radius:5px;
+		margin:10px auto;}
+    .email input[type=email]{
+		display:block;
+		border:1px solid #ccc;
+		vertical-align: middle;
+		margin:0 auto;
+		width:420px;
+		height:36px;
+		line-height:36px;
+		border-radius:5px;
+		padding:0 10px;}

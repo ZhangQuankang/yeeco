@@ -1,0 +1,150 @@
+/* CSS Document */
+body{
+	background:url(../../image/web_image/%E6%B4%BB%E5%8A%A8%E6%8E%A8%E8%8D%90%E8%83%8C%E6%99%AF.png)}
+
+.top_back{
+	height:100px;
+	background:#00ACFF;
+	overflow:hidden;
+	box-shadow:0 1px 2px #ccc;}
+.top{
+    margin:0 auto;
+	width:1000px;
+	height:100px;
+	background:#00ACFF;} 
+.a{
+	float:left;
+	margin:30px 50px;
+	font-size:26px;
+	line-height:40px;
+	color:#fff;}
+.b{
+	float:right;
+	margin:30px 50px;
+	line-height:40px;
+	color:#FFF;}
+	.b a{
+		color:#fff;}
+	.b a:hover{
+		color:#333;}
+		
+.body{
+	margin:0 auto;
+	width:1130px;}
+.left{
+	float:left;
+	width:280px;
+	margin:15px;}
+	.picture{
+		height:150px;
+		width:280px;
+		background:#ccc;}
+		
+.buttons{
+	width:280px;
+	background:#fff;
+	box-shadow:0 0 3px #ccc;}
+	.buttons div{
+		width:278px;
+		margin:auto;
+		cursor:pointer;}
+    .buttons li{
+		padding-left:20px;
+		margin:auto;
+		width:220px;
+		height:60px;
+		line-height:60px;
+		border-bottom:1px solid #f2f2f2;}
+   .buttons div:hover{
+	color:#00acff;
+	box-shadow:1px 1px 3px #ccc;}
+		
+.main{
+	position:relative;
+	float:left;
+	width:805px;
+	margin-top:15px;
+	background:#fff;
+	box-shadow:0 0 3px #ccc;}
+.page_title{
+	margin:0 auto;
+	padding:0 10px;
+	width:750px;
+	height:35px;
+	border-bottom:1px solid #f2f2f2;
+	line-height:35px;
+	font-size:16px;}		
+.contact{
+	width:750px;
+	margin:10px auto;
+	padding:0 20px;}	
+
+/*我关注的社团样式*/
+.myconcern_society{
+	width:750px;
+	text-align:center;
+	line-height:30px;
+	
+	}	
+	.society_name{
+		font-size:15px;
+		color:#FFF;
+		background-color:#97ddff}
+/*我关注的活动样式*/
+.myconcern_act{
+	width:750px;
+	text-align:center;
+	line-height:30px;
+	
+	}	
+	.act_name{
+		font-size:15px;
+		color:#FFF;
+		background-color:#97ddff}
+/*活动*/		
+.act{
+	margin:20px auto;
+	padding:10px;
+	width:730px;
+	height:150px;}
+.act:hover{
+	background:#f9f9f9;
+	cursor:pointer;}
+.act_ad{
+	float:left;
+	width:264px;
+	height:150px;}
+	.act_ad img{
+		width:100%;
+		height:100%;}
+
+.act_tips{
+	float:left;
+	width:460px;}
+	.act_tips li{
+		margin:0 15px;
+		margin-bottom:10px;}
+	.act_tips strong{
+		font-size:18px;
+		font-weight:bold;}
+	.act_tips label{
+		color:#999;
+		width:60px;
+		display:inline-block;
+		vertical-align:top;}
+	.act_tips span{
+		display:inline-block;
+		white-space:nowrap; 
+		overflow:hidden; 
+		text-overflow:ellipsis;
+		max-width:380px;}
+.number{
+	float:right;}
+	.number strong{
+		font-size:16px;
+		margin:0 5px;
+		font-weight:normal;
+		color:#00acff;}
+
+
+

@@ -1,0 +1,351 @@
+body{
+	background:}
+
+.top_back{
+	height:100px;
+	background:#00ACFF;
+	overflow:hidden;
+	box-shadow:0 1px 2px #ccc;}
+.top{
+    margin:0 auto;
+	width:1100px;
+	height:100px;
+	background:#00ACFF;} 
+.a{
+	float:left;
+	margin:30px 50px;
+	font-size:26px;
+	line-height:40px;
+	color:#fff;}
+.b{
+	float:right;
+	margin:30px 50px;
+	line-height:40px;
+	color:#FFF;}
+	.b a{
+		color:#fff;}
+	.b a:hover{
+		color:#333;}
+		
+.page_pre,.finished{
+	margin:15px auto;
+	margin-top:14%;
+	width:630px;}		
+.hello_pic{
+	float:left;
+	background:#ccc;
+	width:140px;
+	height:140px;}
+.welcome{	
+    float:right;	
+	padding:20px;
+	height:100px;
+	width:400px;
+	background:#fff;
+	box-shadow:0 0 5px #ccc;}
+	.welcome strong{
+		color:#00acff;
+		margin:0 5px;}
+	.welcome p{
+		margin:10px 50px;}
+	.welcome a{
+		margin:0 10px;}
+
+.guide{
+	margin:0 auto;
+	width:1130px;
+	line-height:69px;
+	height:69px;
+	border-bottom:2px solid #f2f2f2;
+}
+.guide ul{
+	width:700px;
+	margin:auto;}
+.guide li{
+	color:#999;
+	float:left;
+	font-size:16px;
+	padding:0 50px;}
+.guide .on{
+	color:#333;
+    border-bottom:3px solid #00acff;}
+
+.page_1{
+	width:805px;
+	margin:15px auto;}
+	
+.left{
+	position:relative;
+	float:left;
+	width:210px;
+	height:410px;
+	background:url(../../image/web_image/%E6%9E%B6%E6%9E%84%E5%9B%BE4.png) top 232px right no-repeat;}
+	.chestnut{
+		position:absolute;
+		top:110px;
+		left:110px;}
+.right{
+	float:left;
+	width:500px;}
+	.leader_team{
+		margin:10px;}
+	.framwork label{
+		margin-left:40px;
+		height:38px;
+		line-height:38px;
+		width:100px;
+		display:inline-block;}
+	.framwork input[name=position]{
+		position:absolute;
+		top:214px;
+		left:30px;}
+	.framwork input[name=me]{
+		position:absolute;
+		top:214px;
+		left:120px;
+		width:60px;}
+	.framwork input[name=leader_team]{	
+		width:300px;
+		text-align:left;
+		padding-left:20px;}
+
+.example{
+	background:url(../../image/web_image/%E6%9E%B6%E6%9E%84%E5%9B%BE1.png) no-repeat left bottom;
+	width:500px;
+	height:155px;
+	position:relative;
+	}
+	.framwork input{
+		position:absolute;		
+		border:1px solid #ccc;
+		vertical-align: middle;
+		width:80px;
+		height:36px;
+		line-height:36px;
+		border-radius:5px;
+		text-align:center;}
+    .example input[name=dep_name]{
+		top:60px;
+		left:16px;}
+	.example input[name=position_1]{
+		top:12px;
+		left:130px;}
+	.example input[name=position_2]{
+		top:60px;
+		left:130px;}
+	.example input[name=position_3]{
+		top:107px;
+		left:130px;}
+	.example input[name=manager_1]{
+		top:12px;
+		left:230px;}
+	.example input[name=manager_2]{
+		top:60px;
+		left:230px;}
+	.example input[name=manager_3]{
+		top:107px;
+		left:230px;}
+	.example input[name=tel_1]{
+		width:150px;
+		top:12px;
+		left:322px;}
+	.example input[name=tel_2]{
+		width:150px;
+		top:60px;
+		left:322px;}
+	.example input[name=tel_3]{
+	    width:150px;
+ 		top:107px;
+		left:322px;}
+.new_dep{
+	background:url(../../image/web_image/%E6%9E%B6%E6%9E%84%E5%9B%BE2.png) no-repeat left bottom;
+	width:500px;
+	height:155px;
+	position:relative;
+	}
+	.new_dep input[name='dep_name[]']{
+		top:59px;
+		left:16px;}
+	.new_dep input[name='position_1[]']{
+		top:11px;
+		left:130px;}
+	.new_dep input[name='position_2[]']{
+		top:59px;
+		left:130px;}
+	.new_dep input[name='position_3[]']{
+		top:106px;
+		left:130px;}
+	.new_dep input[name='manager_1[]']{
+		top:11px;
+		left:230px;}
+	.new_dep input[name='manager_2[]']{
+		top:59px;
+		left:230px;}
+	.new_dep input[name='manager_3[]']{
+		top:106px;
+		left:230px;}
+	.new_dep input[name='tel_1[]']{
+		width:150px;
+		top:11px;
+		left:322px;}
+	.new_dep input[name='tel_2[]']{
+		width:150px;
+		top:59px;
+		left:322px;}
+	.new_dep input[name='tel_3[]']{
+	    width:150px;
+ 		top:106px;
+		left:322px;}
+		.new_dep a{
+			position:absolute;
+			top:105px;
+			left:44px;
+			display:block;
+			height:25px;
+			width:25px;
+			border:1px solid #00acff;
+			border-radius:15px;
+			text-align:center;
+			line-height:25px;
+			color:#00acff;}
+        .new_dep a:hover{
+			background:#00acff;
+			color:#fff;}	
+.add_new{
+	background:url(../../image/web_image/%E6%9E%B6%E6%9E%84%E5%9B%BE3.png) no-repeat left top;
+	width:500px;
+	height:100px;
+	position:relative;}
+	.add_new a{
+		position:absolute;
+		border:1px solid #00acff;
+		top:23px;
+		left:130px;
+		height:36px;
+		width:36px;
+		border-radius:18px;
+		line-height:36px;
+		text-align:center;
+		color:#00acff;
+		background:#fff;}
+	.add_new a:hover{
+		color:#fff;
+		background:#00acff;}
+.direction strong{
+	margin-left:50px;}
+.direction p{
+	margin-left:90px;}
+.actions{
+	width:300px;
+	margin:auto;}	
+.actions input{
+	width:80px;
+	position:inherit;
+	border:1px solid #00acff;
+	float:left;
+	margin:20px 35px;}
+
+.page_2{
+	width:805px;
+	margin:15px auto;}
+.invite_1,.invite_2{
+	height:100px;
+	width:100px;
+	border:10px solid #fff;
+	border-radius:60px;
+	box-shadow:0 0px 5px #ccc;
+	top:80px;
+	cursor:pointer;
+	margin-top:100px;}
+	.invite_1{
+		background:url(../../image/web_image/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87.png) center no-repeat;
+		float:left;
+		margin-left:220px;}
+	.invite_2{
+		background:url(../../image/web_image/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87.png) center no-repeat;
+		float:right;
+		margin-right:220px;}
+	.page_2 .direction{
+		margin-top:90px;}
+.way_1,.way_2{
+	background:#fff;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:-50px;
+	width:450px;
+	box-shadow:0 0px 5px #ccc;
+	padding:20px;}
+	.way_2 strong,.way_1 strong{
+		margin:10px;}
+	.way_2 p{
+		margin:10px;}
+	.way_2 input[type=file]{
+		margin-left:10px;}
+	.way_2 a{
+		text-decoration:underline;}
+	.way_1 input{
+		float:left;
+		margin:0 10px;
+		border:1px solid #ccc;
+		vertical-align: middle;
+		height:36px;
+		line-height:36px;
+		border-radius:5px;
+		text-align:center;}
+	.way_1 input[name='name[]']{
+		width:80px;}
+	.way_1 input[name='telnumber[]']{
+		width:200px;}
+.way_1 ul li{
+	margin:10px 0 10px 30px;}
+	.way_1 ul li a{
+		margin:5px;
+		float:left;
+		display:block;
+		eight:25px;
+		width:25px;
+		border:1px solid #ccc;
+		border-radius:15px;
+		text-align:center;
+		line-height:25px;
+		color:#ccc;}
+	.way_1 ul li a:hover{
+		color:#00acff;
+		border:1px solid #00acff;}
+	.go_on{
+		margin:0 auto;
+		display:block;
+		eight:30px;
+		width:80px;
+		border:1px solid #00acff;
+		border-radius:15px;
+		text-align:center;
+		line-height:30px;
+		color:#00acff;}
+	.go_on:hover{
+		background:#00acff;
+		color:#fff;}
+.page_3{
+	width:805px;
+	margin:15px auto;}
+	.page_3 .actions .button{
+		float:none;
+		margin:30px auto;}
+	.qrCode{
+		height:300px;
+		width:300px;
+		background:#CF0;
+		margin:20px auto;}
+	.qrCode img{
+		height:100%;
+		width:100%;}	
+.ok_pic{
+	float:left;
+	background:#ccc;
+	width:140px;
+	height:140px;}
+.finished a{
+	float:left;
+	margin:20px 30px;
+	color:#00acff
+	}

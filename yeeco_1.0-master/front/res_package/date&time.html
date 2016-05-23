@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="jquery.datetimepicker.css"/>
+</head>
+<body>
+	<h3>选日期控件</h3>
+	<input type="text" id="datetimepicker"/><br><br>
+	<h3>选时间控件</h3>
+	<input type="text" id="datetimepicker1"/><br><br>
+</body>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="jquery.datetimepicker.js"></script>
+<script>
+$('#datetimepicker').datetimepicker({
+	lang:'ch',
+	timepicker:false,
+	format:'d/m/Y',
+	});
+$('#datetimepicker1').datetimepicker({
+	datepicker:false,
+	format:'H:i',
+	step:10,
+});
+</script>
+</html>

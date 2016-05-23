@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.native_por{
+	border:1px solid #ccc;
+	vertical-align: middle;
+	line-height:36px;
+	border-radius:5px;
+	height:36px;
+	width:80px;}
+.native_city{
+	border:1px solid #ccc;
+	vertical-align: middle;
+	line-height:36px;
+	border-radius:5px;
+	height:36px;
+	padding:0 10px;}	
+#birthDaySunSelect select{
+	border:1px solid #ccc;
+	vertical-align: middle;
+	line-height:36px;
+	border-radius:5px;
+	height:36px;
+	width:80px;}

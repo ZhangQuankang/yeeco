@@ -1,0 +1,168 @@
+body{
+	background:url(../../image/web_image/%E6%B4%BB%E5%8A%A8%E6%8E%A8%E8%8D%90%E8%83%8C%E6%99%AF.png) center repeat;}
+
+
+.top_back{
+	z-index:3;
+	position:fixed;
+	height:40px;
+	width:100%;
+	background:#00ACFF;
+	overflow:hidden;}
+.transparency{
+	filter:alpha(opacity=50); /*支持 IE 浏览器*/
+	-moz-opacity:0.50; /*支持 FireFox 浏览器*/
+	opacity:0.50; /*支持 Chrome, Opera, Safari 等浏览器*/}
+
+.top{
+	z-index:4;
+	position:fixed;
+	top:0;
+	left:50%;
+	margin-left:-550px;
+	width:1100px;
+	height:40px;} 
+.a{
+	float:left;
+	font-size:26px;
+	height:40px;
+	color:#fff;
+	width:120px;
+	background:#999;}
+.b{
+	float:left;
+	margin-left:50px;
+	line-height:40px;
+	color:#FFF;}
+.c{
+	float:left;
+	margin-left:20px;
+	line-height:40px;
+	color:#FFF;}
+	.c a{
+		color:#fff;}
+.d{
+	float:right;
+	margin:0 50px;
+	line-height:40px;
+	color:#FFF;}
+	.d a{
+		color:#fff;}
+	.d a:hover{
+		color:#333;}
+.change_society{
+	position:absolute;
+	top:45px;
+	left:160px;
+	background:#fff;
+	border:1px solid #ccc;
+	padding:10px;}
+	.change_society a{
+		margin:0 10px;}
+
+/*社团封面部分样式*/
+.head{
+	z-index:1;
+	background:#f2f2f2;
+	box-shadow:0 1px 4px #ccc;}
+.head_in{
+	position:relative;
+	background:url(../../image/web_image/%E7%A9%BA%E9%97%B4%E8%83%8C%E6%99%AF.jpg) center no-repeat;
+	height:300px;
+	width:1100px;
+	margin:0 auto;}
+.cover_pic{
+	position:absolute;
+	top:120px;
+	left:90px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:5px;
+	height:130px;
+	width:130px;
+	padding:5px;}
+	.cover_pic img{
+		height:130px;
+		width:130px;
+		background:#fff;}
+	.name{
+		position:absolute;
+		top:120px;
+		left:250px;}
+		.name strong{
+			color:#00496C;
+			font-size:24px;
+			line-height:50px;}
+	.description{
+		position:absolute;
+		top:200px;
+		left:250px;
+		width:500px;
+		color:#fff;}
+.body{
+	width:1100px;
+	background:#39F;
+	margin:10px auto;}
+	
+/*左侧部分样式*/
+.left{
+	float:left;
+	width:240px;}
+.fresh_button{
+	width:240px;
+	height:40px;
+	background:#97ddff;
+	border-radius:5px;
+	margin-bottom:10px;
+	color:#fff;
+	text-align:center;
+	line-height:40px;}	
+	.fresh_button:hover{
+		transition:background 0.3s;
+        -moz-transition:background 0.3s; /* Firefox 4 */
+        -webkit-transition:background 0.3s; /* Safari and Chrome */
+        -o-transition:background 0.3s; /* Opera */	
+		background:#00ACFF;}	
+.buttons{
+	width:238px;
+	background:#fff;
+	border:1px solid #eee;
+	box-shadow:0 0 3px #ccc;}
+	/*鼠标轮滚动后的样式*/
+	.scroll{
+		position:fixed;
+		top:50px;}
+	.buttons div{
+		width:238px;
+		margin:auto;
+		cursor:pointer;}
+    .buttons li{
+		margin:auto;
+		width:200px;
+		height:60px;
+		line-height:60px;
+		border-bottom:1px solid #f2f2f2;}
+   .buttons div:hover{
+	color:#00acff;
+	box-shadow:1px 1px 3px #ccc;}
+	.buttons img{
+		float:left;
+		margin:15px;
+		height:30px;
+		width:30px;}
+
+
+/*中间主体部分样式*/
+.main{
+	float:left;
+	margin:0 17px;
+	width:816px;}
+
+
+.temp{
+	height:200px;
+	text-align:center;
+	line-height:100px;
+	margin:100px auto;
+	color:#000;
+	font-size:30px;}
